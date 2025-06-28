@@ -1,0 +1,62 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+virtual/
+env/
+.venv/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Flask instance folder (for config)
+instance/
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Ngrok files
+ngrok.log
+ngrok.yml
+*.ngrok.*
+
+# Test/coverage
+.pytest_cache/
+.tox/
+coverage/
+.coverage
+htmlcov/
+
+# Build artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Backup/swap/temp files
+*.bak
+*.swp
+*.swo
+*~
+
+# SQLite DBs (if ever used temporarily)
+*.sqlite3
+
+# MongoDB dump files
+dump/
+*.bson
+*.json
