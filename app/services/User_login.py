@@ -15,3 +15,4 @@ def update_password(username,new_password):
         {"name": username},
         {"$set": {"password": new_hashed}}
     )
+    
